@@ -91,3 +91,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " shell setting for RVM
 set shell=/bin/sh
+

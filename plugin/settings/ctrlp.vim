@@ -9,3 +9,9 @@ let g:ctrlp_match_window_reversed=0
 let g:ctrlp_mruf_max=500
 let g:ctrlp_follow_symlinks=1
 
+map ,pp :CtrlP
+map ,pd :CtrlPDir
+map ,pu :CtrlPUndo
+map ,pl :CtrlPLine
+map ,pc :CtrlPChangeAll
+map ,pm :CtrlPMRU
