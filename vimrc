@@ -6,4 +6,7 @@
 " eddie@digik.com.tw
 
 execute pathogen#infect()
+" 修改leader键
+"let mapleader = ','
+"let g:mapleader = ','
 
