@@ -1,0 +1,21 @@
+[submodule "bundle/L8"]
+	path = bundle/L8
+	url = https://github.com/vim-scripts/L9.git
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-scriptease"]
+	path = bundle/vim-scriptease
+	url = https://github.com/tpope/vim-scriptease.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/jshint2.vim"]
+	path = bundle/jshint2.vim
+	url = https://github.com/Shutnik/jshint2.vim.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
