@@ -17,6 +17,14 @@ nnoremap <Leader>hw <C-W>h
 nnoremap <Leader>kw <C-W>k
 " 跳转至下方的子窗口
 nnoremap <Leader>jw <C-W>j
+
+" buffer快速导航
+nnoremap <Leader>p :bp<CR>
+nnoremap <Leader>n :bn<CR>
+
+" 查看buffers
+nnoremap <Leader>l :ls<CR>
+
 "imap jk 
 "imap <C-j> OB
 "imap <C-k> OA
@@ -28,24 +36,17 @@ nnoremap <Leader>jw <C-W>j
 
 if has("gui_macvim")
   set macmeta
-  noremap 1 :buffer 1<CR>
-  noremap 2 :buffer 2<CR>
-  noremap 3 :buffer 3<CR>
-  noremap 4 :buffer 4<CR>
-  noremap 5 :buffer 5<CR>
-  noremap 6 :buffer 6<CR>
-  noremap 7 :buffer 7<CR>
-  noremap 8 :buffer 8<CR>
-  noremap 9 :buffer 9<CR>
-  "noremap <m-1> :buffer 1<CR>
-  "noremap <m-2> :buffer 2<CR>
-  "noremap <m-3> :buffer 3<CR>
-  "noremap <m-4> :buffer 4<CR>
-  "noremap <m-5> :buffer 5<CR>
-  "noremap <m-6> :buffer 6<CR>
-  "noremap <m-7> :buffer 7<CR>
-  "noremap <m-8> :buffer 8<CR>
-  "noremap <m-9> :buffer 9<CR>
+  " 通过索引快速跳转
+  nnoremap <Leader>1 :1b<CR>
+  nnoremap <Leader>2 :2b<CR>
+  nnoremap <Leader>3 :3b<CR>
+  nnoremap <Leader>4 :4b<CR>
+  nnoremap <Leader>5 :5b<CR>
+  nnoremap <Leader>6 :6b<CR>
+  nnoremap <Leader>7 :7b<CR>
+  nnoremap <Leader>8 :8b<CR>
+  nnoremap <Leader>9 :9b<CR>
+  nnoremap <Leader>0 :10b<CR>
 
   "tab
   noremap <silent><d-[> :tabp<cr>
@@ -61,14 +62,16 @@ if has("gui_macvim")
   noremap <silent><d-8> :tabn 8<cr>
   noremap <silent><d-9> :tabn 9<cr>
 else
-  noremap 1 :buffer 1<CR>
-  noremap 2 :buffer 2<CR>
-  noremap 3 :buffer 3<CR>
-  noremap 4 :buffer 4<CR>
-  noremap 5 :buffer 5<CR>
-  noremap 6 :buffer 6<CR>
-  noremap 7 :buffer 7<CR>
-  noremap 8 :buffer 8<CR>
-  noremap 9 :buffer 9<CR>
+  " 通过索引快速跳转
+  nnoremap <Leader>1 :1b<CR>
+  nnoremap <Leader>2 :2b<CR>
+  nnoremap <Leader>3 :3b<CR>
+  nnoremap <Leader>4 :4b<CR>
+  nnoremap <Leader>5 :5b<CR>
+  nnoremap <Leader>6 :6b<CR>
+  nnoremap <Leader>7 :7b<CR>
+  nnoremap <Leader>8 :8b<CR>
+  nnoremap <Leader>9 :9b<CR>
+  nnoremap <Leader>0 :10b<CR>
 endif
 

@@ -7,6 +7,6 @@
 
 execute pathogen#infect()
 " 修改leader键
-"let mapleader = ','
-"let g:mapleader = ','
+let mapleader = ';'
+
 
