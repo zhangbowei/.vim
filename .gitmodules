@@ -1,5 +1,5 @@
-[submodule "bundle/L8"]
-	path = bundle/L8
+[submodule "bundle/L9"]
+	path = bundle/L9
 	url = https://github.com/vim-scripts/L9.git
 [submodule "bundle/AutoComplPop"]
 	path = bundle/AutoComplPop
@@ -19,3 +19,9 @@
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "bundle/vim-flake8"]
+	path = bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
