@@ -4,9 +4,7 @@
 " Eddie Kao
 " http://blog.eddie.com.tw
 " eddie@digik.com.tw
-
 execute pathogen#infect()
 " 修改leader键
 let mapleader = ';'
-
-
+Helptags

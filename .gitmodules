@@ -25,3 +25,12 @@
 [submodule "bundle/vim-flake8"]
 	path = bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
+[submodule "bundle/vitality"]
+	path = bundle/vitality
+	url = git@github.com:sjl/vitality.vim.git
+[submodule "bundle/bundle/vim-pathogen"]
+	path = bundle/bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "/Users/ZhangBowei/.vim/bundle/vim-togglecursor"]
+	path = /Users/ZhangBowei/.vim/bundle/vim-togglecursor
+	url = https://github.com/jszakmeister/vim-togglecursor
